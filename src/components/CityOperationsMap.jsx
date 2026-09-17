@@ -55,7 +55,7 @@ const createHospitalIcon = (name) => {
   });
 };
 
-const CityOperationsMap = ({ ambulances = [], incidents = [] }) => {
+const CityOperationsMap = ({ ambulances: _ambulances = [], incidents: _incidents = [] }) => {
   const [layers, setLayers] = useState({
     incidents: true,
     fleet: true,

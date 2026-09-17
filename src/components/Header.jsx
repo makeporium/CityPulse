@@ -1,11 +1,5 @@
 import React from 'react';
-import { 
-  RiSignalTowerFill, 
-  RiBuilding4Line, 
-  RiTimeLine, 
-  RiCheckDoubleLine,
-  RiArrowRightSLine
-} from 'react-icons/ri';
+import { RiBuilding4Line } from 'react-icons/ri';
 
 const Header = ({ activeTab, setActiveTab, currentTime }) => {
   return (

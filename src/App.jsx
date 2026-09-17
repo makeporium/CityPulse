@@ -14,7 +14,6 @@ function App() {
   const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString());
   const [incidents, setIncidents] = useState([]);
   const [ambulances, setAmbulances] = useState([]);
-  const [events, setEvents] = useState([]);
   const [feedbackNotice, setFeedbackNotice] = useState(null);
 
   const showNotification = (msg) => {
@@ -126,7 +125,7 @@ function App() {
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-3 flex-1">
               {/* 01 LIVE EVENT LOG */}
               <div className="lg:col-span-3 min-h-[440px] flex flex-col">
-                <LiveEventLog events={events} />
+                <LiveEventLog />
               </div>
 
               {/* 02 CITY OPERATIONS MAP & TRAFFIC PREDICTION */}

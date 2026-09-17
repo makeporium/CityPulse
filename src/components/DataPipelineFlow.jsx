@@ -9,7 +9,7 @@ import {
   RiRadarFill
 } from 'react-icons/ri';
 
-const PipelineNode = ({ title, desc, icon: Icon, tag, isFirst = false }) => {
+const PipelineNode = ({ title, desc, icon: Icon, tag, _isFirst = false }) => {
   return (
     <div className="flex-1 flex items-center">
       <div className="w-full bg-[#fcfbf9] border border-[#d6d3c7] p-2 rounded flex flex-col justify-between hover:border-[#14171a] transition-all">

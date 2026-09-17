@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import { 
-  RiAlarmWarningFill, 
   RiLightbulbFill, 
   RiRouteLine, 
-  RiHospitalFill, 
   RiArrowRightLine
 } from 'react-icons/ri';
 import { TbAmbulance } from 'react-icons/tb';

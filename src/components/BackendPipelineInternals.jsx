@@ -4,10 +4,8 @@ import {
   RiCpuFill, 
   RiBrainFill, 
   RiRouteFill, 
-  RiCodeBoxFill,
   RiCheckLine,
   RiFileCopyLine,
-  RiPulseFill,
   RiTerminalBoxFill
 } from 'react-icons/ri';
 

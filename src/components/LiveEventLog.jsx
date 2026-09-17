@@ -7,8 +7,7 @@ import {
   RiAlertFill, 
   RiCheckboxCircleFill, 
   RiHospitalFill, 
-  RiVolumeUpFill, 
-  RiBroadcastFill 
+  RiVolumeUpFill
 } from 'react-icons/ri';
 import { TbAmbulance } from 'react-icons/tb';
 
