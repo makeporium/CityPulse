@@ -1,6 +1,7 @@
-# CityPulse AI — Project Status, Architecture & Implementation Roadmap
+# TEQ (That Escalated Quickly) — Project Status, Architecture & Implementation Roadmap
 
-> **System Mission**: CityPulse AI is an autonomous, multimodal, real-time urban emergency response and traffic management system built on a Big Data streaming architecture. It ingests 6 simultaneous data streams, processes them via Apache Kafka and Apache Spark Structured Streaming, runs 4 ML models simultaneously, and executes automated ambulance dispatch and civilian traffic diversion with sub-minute latency.
+> **System Mission**: **TEQ (That Escalated Quickly)** — *"See it. Understand it. Respond before it spreads."*
+> TEQ is an autonomous, multimodal, real-time urban emergency response and predictive traffic intelligence system built on a Big Data streaming architecture. It ingests 6 simultaneous data streams, processes them via Apache Kafka and Apache Spark Structured Streaming, runs 4 ML models simultaneously, and executes automated ambulance dispatch and civilian traffic diversion with sub-minute latency.
 
 ---
 
@@ -241,5 +242,5 @@ Existing literature in urban emergency systems is split into two disjoint catego
 1. **Pipeline-Only Papers**: High-throughput Big Data architectures or sensor fusion systems that do not trigger operational real-world actions or vehicle dispatch.
 2. **Action-Only Papers**: Ambulance dispatch and routing systems (e.g., Dijkstra, genetic algorithms, reinforcement learning) that rely entirely on **manual human 911/112 phone calls** to initiate the process.
 
-**CityPulse AI's Unique Contribution**:
+**TEQ's Unique Contribution**:
 > *"We are the first system to close that loop — streaming autonomous multi-source detection directly into dynamic routing and civilian traffic diversion within a single integrated Big Data framework, eliminating human call latency entirely."*

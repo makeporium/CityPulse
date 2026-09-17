@@ -106,11 +106,11 @@ const LiveEventLog = ({ events }) => {
 
       {/* Footer Quote */}
       <div className="p-2.5 border-t border-[#dad7cb] bg-[#f4f3ee] text-center">
-        <div className="text-[11px] font-mono font-bold text-[#14171a] tracking-tight">
-          “A SAFER CITY IS A STRONGER CITY.”
+        <div className="text-[10px] font-mono font-bold text-[#14171a] tracking-tight">
+          “SEE IT. UNDERSTAND IT. RESPOND BEFORE IT SPREADS.”
         </div>
         <div className="text-[9px] font-mono text-[#5c6370] uppercase tracking-widest mt-0.5">
-          — CITYPULSE AI
+          — TEQ (THAT ESCALATED QUICKLY)
         </div>
       </div>
     </div>

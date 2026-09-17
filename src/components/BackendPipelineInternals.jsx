@@ -21,7 +21,7 @@ const BackendPipelineInternals = () => {
       partition: 2,
       offset: 1489201,
       timestamp: new Date().toISOString(),
-      schema: 'org.citypulse.telemetry.CCTVEventAvro',
+      schema: 'org.teq.telemetry.CCTVEventAvro',
       payload: {
         camera_id: 'CAM-DEL-RING-104',
         intersection_id: 'INT-AIIMS-02',
@@ -46,7 +46,7 @@ const BackendPipelineInternals = () => {
       partition: 0,
       offset: 894012,
       timestamp: new Date().toISOString(),
-      schema: 'org.citypulse.telemetry.AmbulanceGPSAvro',
+      schema: 'org.teq.telemetry.AmbulanceGPSAvro',
       payload: {
         vehicle_id: 'AMB-03',
         status: 'DISPATCHED',
@@ -71,7 +71,7 @@ const BackendPipelineInternals = () => {
       partition: 1,
       offset: 42109,
       timestamp: new Date().toISOString(),
-      schema: 'org.citypulse.telemetry.OpenWeatherMapAvro',
+      schema: 'org.teq.telemetry.OpenWeatherMapAvro',
       payload: {
         source: 'OpenWeatherMap API v3.0 (10-min poll)',
         city: 'New Delhi',
@@ -92,7 +92,7 @@ const BackendPipelineInternals = () => {
       partition: 0,
       offset: 210984,
       timestamp: new Date().toISOString(),
-      schema: 'org.citypulse.telemetry.UrbanSound8KAvro',
+      schema: 'org.teq.telemetry.UrbanSound8KAvro',
       payload: {
         acoustic_sensor_id: 'MIC-PATEL-08',
         coordinates: { lat: 28.6520, lng: 77.1650 },
@@ -112,7 +112,7 @@ const BackendPipelineInternals = () => {
       partition: 2,
       offset: 5410982,
       timestamp: new Date().toISOString(),
-      schema: 'org.citypulse.telemetry.TrafficSensorAvro',
+      schema: 'org.teq.telemetry.TrafficSensorAvro',
       payload: {
         sensor_id: 'SENSOR-SEG-418',
         road_corridor: 'Ring Road (AIIMS to Moolchand)',
@@ -130,7 +130,7 @@ const BackendPipelineInternals = () => {
       partition: 1,
       offset: 2489120,
       timestamp: new Date().toISOString(),
-      schema: 'org.citypulse.telemetry.USAccidentsReplayAvro',
+      schema: 'org.teq.telemetry.USAccidentsReplayAvro',
       payload: {
         source_dataset: 'US-Accidents (7.7M record stream replay at 1,000 ev/s)',
         record_id: 'A-2489120',
@@ -297,7 +297,7 @@ const BackendPipelineInternals = () => {
             {/* Consumer Group Telemetry */}
             <div className="arch-panel p-3 border border-[#d6d3c7] bg-white rounded">
               <h4 className="text-xs font-bold text-[#14171a] mb-2 uppercase">
-                Active Consumer Group: <span className="text-[#0284c7]">citypulse-spark-streaming</span>
+                Active Consumer Group: <span className="text-[#0284c7]">teq-spark-streaming</span>
               </h4>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-[11px]">
                 <div className="p-2 rounded bg-[#f4f3ee] border border-[#e5e2d6]">
@@ -464,7 +464,7 @@ const BackendPipelineInternals = () => {
                 <span>Decision Engine: Dijkstra Shortest Path with Dynamic LSTM Congestion Penalties</span>
               </h3>
               <p className="text-[11px] text-[#5c6370] font-sans mb-3">
-                CityPulse AI operates on a real OpenStreetMap road network graph of Delhi generated using OSMnx and NetworkX. Unlike traditional Google Maps routing which only knows current congestion, CityPulse routes around roads that are predicted to become jammed 15 minutes in advance.
+                TEQ (That Escalated Quickly) operates on a real OpenStreetMap road network graph of Delhi generated using OSMnx and NetworkX. Unlike traditional Google Maps routing which only knows current congestion, TEQ routes around roads that are predicted to become jammed 15 minutes in advance.
               </p>
 
               <div className="p-3 bg-[#f4f3ee] border border-[#e5e2d6] rounded font-mono text-[11px] text-[#14171a] space-y-2">

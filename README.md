@@ -1,6 +1,6 @@
-# CityPulse AI — Autonomous Urban Emergency Response & Traffic Management
+# TEQ (That Escalated Quickly) — See it. Understand it. Respond before it spreads.
 
-CityPulse AI is a real-time smart city command center that watches an urban metropolis, automatically detects emergencies from 6 multimodal data streams, predicts traffic congestion via deep learning, and autonomously dispatches the nearest emergency vehicle via dynamic Dijkstra routing over OpenStreetMap roads.
+TEQ is a multimodal real-time urban emergency response and predictive traffic intelligence command system built on a Big Data streaming architecture. It ingests 6 simultaneous data streams, processes them via Apache Kafka and Apache Spark Structured Streaming, runs 4 ML models simultaneously, and executes automated ambulance dispatch and civilian traffic diversion with sub-minute latency.
 
 ---
 

@@ -54,7 +54,7 @@ const CityPulseStreams = () => {
           <span className="arch-header-badge">04</span>
           <div>
             <h2 className="text-xs font-bold font-mono uppercase tracking-wider text-[#14171a]">
-              THE CITY PULSE
+              THE TEQ PULSE
             </h2>
             <span className="text-[10px] font-mono text-[#5c6370]">
               SIX DATA STREAMS. ONE REAL-TIME PICTURE.

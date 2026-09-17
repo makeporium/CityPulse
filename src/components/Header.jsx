@@ -13,31 +13,37 @@ const Header = ({ activeTab, setActiveTab, currentTime }) => {
               className="text-3xl lg:text-4xl font-extrabold tracking-tight text-[#14171a] uppercase leading-none"
               style={{ fontFamily: "'Bebas Neue', 'Oswald', sans-serif" }}
             >
-              CITYPULSE AI
+              TEQ
             </h1>
+            <span className="text-xs font-mono font-bold px-1.5 py-0.5 rounded bg-[#14171a] text-white">
+              AI
+            </span>
           </div>
 
           <div className="hidden sm:block border-l border-[#b5b1a3] pl-3">
             <span 
-              className="block text-[10px] font-bold tracking-widest text-[#5c6370] uppercase"
+              className="block text-[12px] font-bold tracking-wider text-[#14171a] uppercase"
               style={{ fontFamily: "'Oswald', sans-serif" }}
             >
-              SAFER · FASTER · SMARTER CITIES
+              THAT ESCALATED QUICKLY
+            </span>
+            <span className="block text-[9px] font-mono text-[#5c6370] uppercase tracking-wider">
+              AUTONOMOUS INCIDENT RESPONSE
             </span>
           </div>
 
           <div className="hidden xl:block border-l border-[#b5b1a3] pl-4">
-            <div className="text-[11px] font-mono text-[#333740] font-semibold tracking-wide">
-              REAL-TIME URBAN EMERGENCY & TRAFFIC INTELLIGENCE
+            <div className="text-[11px] font-mono text-[#14171a] font-bold tracking-wide">
+              SEE IT. UNDERSTAND IT. RESPOND BEFORE IT SPREADS.
             </div>
             <div className="text-[10px] font-mono text-[#666d7a] flex items-center gap-1.5">
-              <span>SENSE</span>
+              <span>MULTIMODAL SENSING</span>
               <span>➔</span>
-              <span>UNDERSTAND</span>
+              <span>STREAM FUSION</span>
               <span>➔</span>
-              <span>DECIDE</span>
+              <span>PREDICTIVE DIVERSION</span>
               <span>➔</span>
-              <span className="text-[#c92a2a] font-bold">SAVE LIVES</span>
+              <span className="text-[#c92a2a] font-bold">SUB-SECOND DISPATCH</span>
             </div>
           </div>
         </div>
