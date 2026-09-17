@@ -1,0 +1,117 @@
+\documentclass[10pt,a4paper]{article}
+
+% -------------------- PACKAGES --------------------
+\usepackage[left=0.5in,right=0.5in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{graphicx}
+
+% -------------------- FORMATTING --------------------
+\setstretch{1.0}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+
+\titleformat{\section}
+  {\normalsize\bfseries}
+  {}
+  {0pt}
+  {}
+  [\titlerule]
+
+\titlespacing{\section}{0pt}{5pt}{3pt}
+
+\pagenumbering{gobble}
+
+\begin{document}
+
+% ==================== HEADER ====================
+\begin{center}
+    \includegraphics[height=1.1cm]{bmulogo.png} \\[1pt]
+    {\large \textbf{Cheshta Aggarwal}} \\[1pt]
+    B.Tech | CSE | 2024 -- 2028 \\[1pt]
+    7814045898 | cheshta.aggarwal.24cse@bmu.edu.in | \href{https://www.linkedin.com/in/cheshta-aggarwal-01686b322/}{LinkedIn} | \href{https://github.com/Cheshta-07}{GitHub} \\[1pt]
+\end{center}
+
+\vspace{-4pt}
+
+% ==================== EDUCATION ====================
+\section*{Education}
+B.Tech in Computer Science Engineering \hfill 2024 -- 2028 \\
+CGPA: 8.17 / 10
+
+\vspace{1pt}
+\noindent Class XII -- Quest International School, Bathinda \hfill 2024 | Science (PCM), 79\%
+
+\vspace{1pt}
+\noindent Class X (CBSE) -- R.B.D.A.V. School, Bathinda \hfill 2022 | 89.29\%
+
+% ==================== SKILLS ====================
+\section*{Skills}
+\vspace{1pt}
+\textbf{Languages:} JavaScript (ES6+), Python, C, Java \\
+\textbf{Frontend:} React.js, HTML5, CSS3, JSX, React Hooks (useState, useEffect), Component-based Architecture \\
+\textbf{Libraries \& Tools:} React-Leaflet, Leaflet.js, Lucide-React, Vite, Node.js, Express \\
+\textbf{AI / ML:} OpenCV, PyTorch, TensorFlow, YOLO \quad\textbf{Databases \& DevOps:} MySQL, MongoDB, Git, GitHub, Linux \\
+\textbf{Concepts:} OOP, DSA, REST APIs, Real-time Data Rendering, Database Design, OS Fundamentals
+
+% ==================== PROJECTS ====================
+\section*{Projects}
+\vspace{1pt}
+
+\textbf{CityPulse AI -- Smart City Emergency Dashboard} \hfill Aug 2025 -- Ongoing \\[2pt]
+Tech: \textbf{React.js, JavaScript (ES6+)}, Vite, React-Leaflet, Leaflet.js, Lucide-React, CSS3
+\begin{itemize}
+    \item Built a \textbf{React} SPA with modular component architecture (MapSimulation, IncidentFeed, ControlPanel, DashboardStats) and real-time state management via \textbf{useState} \& \textbf{useEffect} hooks.
+    \item Implemented a \textbf{JavaScript}-driven simulation engine auto-generating incidents and moving ambulances using geo-coordinate math, ticking every 3s via \texttt{setInterval}.
+    \item Designed reusable \textbf{React} components with prop-driven styling, inline \textbf{JS} hover micro-animations, and a dual-view (City / Intersection AI) dashboard with conditional \textbf{JSX} rendering.
+    \item Built a live incident feed with reverse-chronological rendering, severity-based color coding, and CSS fade-in animations driven by real-time \textbf{React} state.
+\end{itemize}
+
+\vspace{2pt}\noindent
+\textbf{SMART BIN} \hfill Aug 2024 -- Ongoing | \href{https://drive.google.com/file/d/1f-Q_tfywtCbI2DWZPfFyu9e8Epw-IqE5/view}{Demo} | \href{https://drive.google.com/file/d/1KBs5fB0WU-_Qa1MsJnE2XjwC2J1C-yBp/view}{Playbook} \\[2pt]
+Tech: Python, OpenCV, TensorFlow, Raspberry Pi, MobileNetV3, \textbf{React.js, JavaScript}
+\begin{itemize}
+    \item Contributed to AI-based waste classification system trained on approx.\ 40,000 images (wet vs.\ dry); assisted in dataset curation, labeling, preprocessing, and model evaluation.
+    \item Built a \textbf{React.js} monitoring dashboard using \textbf{JavaScript} to display real-time classification results and bin fill-level status from the embedded sensor feed.
+    \item Awarded INR 50,000 SEED Grant for prototype development.
+\end{itemize}
+
+\vspace{2pt}\noindent
+\textbf{EXPENSE MANAGER APP} \hfill Dec 2024 -- Jan 2025 \\[2pt]
+Tech: Python, MySQL, \textbf{React.js, JavaScript (ES6+)}
+\begin{itemize}
+    \item Built expense tracking app with relational database design and a \textbf{React.js} web frontend; implemented analytical summaries rendered as dynamic charts using \textbf{JavaScript}.
+    \item Designed interactive, component-based UI in \textbf{React} with controlled form inputs and real-time state updates for streamlined data entry.
+\end{itemize}
+
+\vspace{2pt}\noindent
+\textbf{STELMAR CONFERENCE: RESEARCH PAPER} \hfill Dec 2025 -- Jan 2026 | \href{https://drive.google.com/file/d/1b2gHatiAK-U937fmNOLQ1ZwGJNj94b__/view}{Playbook} \\[2pt]
+Tech: Python, MetaInfoSci, \textbf{JavaScript, React.js}
+\begin{itemize}
+    \item Conducted bibliometric analysis of 2,158 Scopus-indexed publications (1985--2025); co-authorship network of 7,158 authors across 64 countries.
+    \item Built a \textbf{JavaScript}-based visualization layer for keyword co-occurrence networks presented as a \textbf{React} web page; identified thematic clusters via keyword co-occurrence mapping.
+    \item Awarded best poster award at STELMAR 2026.
+\end{itemize}
+
+% ==================== TRAINING ====================
+\section*{Training}
+\vspace{1pt}
+\textbf{Launched Global} \hfill June 2025 -- Aug 2025
+\begin{itemize}
+    \item Completed AI course; built capstone project -- Excuse Generator using \textbf{JavaScript} and \textbf{React} frontend integration.
+\end{itemize}
+
+% ==================== ACHIEVEMENTS ====================
+\section*{Achievements \& Responsibilities}
+\vspace{1pt}
+\begin{itemize}
+    \item Executive Committee Member -- Technical Club; organized 7+ events with 100+ participants.
+    \item Awarded INR 50,000 SEED Grant for Smart Waste Segregation Bin prototype development.
+    \item Awarded best poster award during STELMAR 2026.
+\end{itemize}
+
+\end{document}
+
+
