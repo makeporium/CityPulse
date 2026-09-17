@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Big Data & Large Media Datasets (GitHub 100MB limit safety)
+All datasets/US Accidents Dataset/large_file.csv
+All datasets/US Accidents Dataset/part*.csv
+All datasets/**/*.mp4
+All datasets/**/*.avi
+All datasets/**/*.mkv
+All datasets/**/*.zip
+All datasets/**/*.tar.gz
+*.mp4
+*.csv.gz
