@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, CircleMarker, Polyline, useMap } from 'react-leaflet';
+import React from 'react';
+import { MapContainer, TileLayer, Marker, Popup, CircleMarker, Polyline } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import { RiCrosshair2Line, RiCompass3Line, RiShieldCrossFill, RiRouteLine } from 'react-icons/ri';
+import { RiCrosshair2Line, RiShieldCrossFill } from 'react-icons/ri';
 
 // Fix Leaflet's default icon paths
 delete L.Icon.Default.prototype._getIconUrl;
@@ -83,8 +83,9 @@ const MapSimulation = ({ incidents, ambulances }) => {
         zoomControl={false}
       >
         <TileLayer
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+          url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+          attribution='&copy; <a href="https://www.esri.com/">Esri</a> &copy; OpenStreetMap contributors'
+          maxZoom={16}
         />
 
         {/* Render Incidents with Pulse Rings */}

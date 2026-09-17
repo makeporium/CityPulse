@@ -1,7 +1,7 @@
 import React from 'react';
 import { 
   RiVideoFill, 
-  RiCloudRainFill, 
+  RiRainyFill, 
   RiVolumeUpFill, 
   RiAlarmWarningFill,
   RiRoadMapFill,
@@ -19,7 +19,7 @@ const IncidentFeed = ({ incidents }) => {
         };
       case 'Weather':
         return {
-          icon: RiCloudRainFill,
+          icon: RiRainyFill,
           label: 'WEATHER-API',
           color: 'text-sky-400 bg-sky-950/60 border-sky-500/40'
         };

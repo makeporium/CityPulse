@@ -1,13 +1,13 @@
 import React from 'react';
 import { 
-  RiSirenFill, 
   RiRouteLine, 
   RiTrafficLightFill, 
   RiCpuLine, 
   RiBroadcastLine,
   RiDatabase2Line,
-  RiRadarLine
+  RiRadarLine 
 } from 'react-icons/ri';
+import { TbAmbulance } from 'react-icons/tb';
 
 const TacticalActionButton = ({ icon: Icon, label, tag, subtext, onClick, theme }) => {
   const themeStyles = {
@@ -92,7 +92,7 @@ const ControlPanel = ({ onDispatchAmbulance, onDivertTraffic, onClearSignals }) 
         </div>
 
         <TacticalActionButton
-          icon={RiSirenFill}
+          icon={TbAmbulance}
           label="Dispatch Ambulance"
           tag="EMERGENCY"
           subtext="Dijkstra shortest path with OSM road weights"

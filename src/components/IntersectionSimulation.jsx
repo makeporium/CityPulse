@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import { RiTrafficLightFill, RiCpuLine, RiRoadMapLine, RiRadarLine } from 'react-icons/ri';
+import { RiCpuLine, RiRadarLine } from 'react-icons/ri';
 
 const IntersectionSimulation = () => {
   const canvasRef = useRef(null);

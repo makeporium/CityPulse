@@ -1,16 +1,27 @@
-# React + Vite
+# CityPulse AI — Autonomous Urban Emergency Response & Traffic Management
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+CityPulse AI is a real-time smart city command center that watches an urban metropolis, automatically detects emergencies from 6 multimodal data streams, predicts traffic congestion via deep learning, and autonomously dispatches the nearest emergency vehicle via dynamic Dijkstra routing over OpenStreetMap roads.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Quick Navigation
 
-## React Compiler
+- **Detailed Project Audit & Roadmap**: See [PROJECT_STATUS_ROADMAP.md](file:///c:/Users/astro/Desktop/College%20Ayush/BDA/CityPulse/PROJECT_STATUS_ROADMAP.md) for what is currently built vs what is left to be made.
+- **Tech Stack**: React 19, Tailwind CSS v4, Leaflet, Remix Icons (`react-icons/ri`), Tabler Icons (`react-icons/tb`).
+- **Target Backend Pipeline**: Apache Kafka, Apache Spark Structured Streaming, PyTorch/XGBoost/scikit-learn, OSMnx + NetworkX, FastAPI.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Running the Frontend Command Center
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build production bundle
+npm run build
+```
+
